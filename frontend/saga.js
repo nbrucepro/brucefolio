@@ -6,6 +6,7 @@ function* watchFetchProducts() {
 }
 
 function* fetchProducts() {
+  //bruce
   const products = yield Api.fetch("/products");
   console.log(products);
 }
