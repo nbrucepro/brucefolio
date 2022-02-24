@@ -20,6 +20,6 @@ export default createSchema({
   types: schemaTypes.concat([
     /* Your types here! */
     about,brands,contact,experience,skills,testimonials,workExperience,works
-  ]),git commit-m "schemas"
+  ])
 
 })
