@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 import {HiMenuAlt4,HiX} from 'react-icons/hi'
 import { motion } from 'framer-motion'
-import {images} from '../../constants/'
+// import {images} from '../../constants/'
 import './Navbar.scss'
+
 const Navbar = () => {
     const [toggle,setToggle]=useState(false);
-  return (
+
+    return (
     <nav className='navbar'>
         <div className='navbar-logo'>
             <img src="{images.logo}"/>
