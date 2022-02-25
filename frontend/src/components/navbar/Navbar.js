@@ -29,6 +29,8 @@ const Navbar = () => {
                 >
                     {/* {test} */}
                     {/* {test} */}
+                    {/* {test} */}
+                    {/* {test} */}
                     <HiX onClick={()=>{setToggle(false)}}/>
                     <ul>
               {['home','about','work','skills','contact'].map(item=>(
