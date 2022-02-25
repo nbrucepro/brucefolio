@@ -28,6 +28,7 @@ const Navbar = () => {
                 transition={{duration:0.85,ease:"easeInOut"}}
                 >
                     {/* {test} */}
+                    {/* {test} */}
                     <HiX onClick={()=>{setToggle(false)}}/>
                     <ul>
               {['home','about','work','skills','contact'].map(item=>(
