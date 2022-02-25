@@ -27,6 +27,7 @@ const Navbar = () => {
                 whileInView={{x:[300,0]}}
                 transition={{duration:0.85,ease:"easeInOut"}}
                 >
+                    {/* {test} */}
                     <HiX onClick={()=>{setToggle(false)}}/>
                     <ul>
               {['home','about','work','skills','contact'].map(item=>(
