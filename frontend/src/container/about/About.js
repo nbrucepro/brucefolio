@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import {motion, MotionConfig} from 'framer-motion';
 import './About.scss';
-import { client, urlFor } from '../../../../../bdark/bruce/bu/src/client';
+import { client, urlFor } from '../../../../bdark/bruce/bu/src/client';
 // import {client} from 'client'
 const About = () => {
   const [about,setAbout]=useState([]);
