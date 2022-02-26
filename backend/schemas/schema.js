@@ -12,14 +12,11 @@ import testimonials from './testimonials.js'
 import workExperience from './workExperience.js'
 import works from './works.js'
 // Then we give our schema to the builder and provide the result to Sanity
+//Rwanda Coding Academy
 export default createSchema({
   // We name our schema
   name: 'default',
   // Then proceed to concatenate our document type
   // to the ones provided by any plugins that are installed
-  types: schemaTypes.concat([
-    /* Your types here! */
-    about,brands,contact,experience,skills,testimonials,workExperience,works
-  ]),git commit-m "schemas"
-
+  types: schemaTypes.concat([about,brands,contact,experience,skills,testimonials,workExperience,works]),
 })
