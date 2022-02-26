@@ -67,4 +67,8 @@ className='overlay_cirlce'
     </div>
   )
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1081e94607d7a2c63e7b0c8ec8571f7d17bb56e8
 export default Header
