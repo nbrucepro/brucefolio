@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AuthService {
-
+    
     private Socket socket;
     private AuthenticationDataFormat data;
     private  boolean authenticated = false;
