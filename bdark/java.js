@@ -93,6 +93,38 @@
 //         }
 //         while(openLogin);
 //     }
+//         authorize:do{
+
+//             System.out.println(Colors.ANSI_PURPLE);
+//             System.out.println("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tWELCOME ON  CUSTOMIFY  SYSTEM");
+//             System.out.println(Colors.ANSI_RESET);
+
+//             Scanner scan = new Scanner(System.in);
+//             String email, password;
+//             System.out.println("\t\t\t\t\t\t\t\t\t\t\t\t\t\tLOGIN\n");
+//             System.out.print("\t\t\t\t\t\t\t\t\t\t\t\t\t\tEmail: ");
+//             email = scan.nextLine();
+//             if (email.equals("00"))
+//                 break authorize;
+
+//             System.out.print("\t\t\t\t\t\t\t\t\t\t\t\t\t\tPassword: ");
+//             password = scan.nextLine();
+
+
+//             if (password.equals("00"))
+//                 break authorize;
+
+//             AuthenticationDataFormat format = new AuthenticationDataFormat(email, password);
+//             AuthService authService = new AuthService(this.socket, format);
+
+//             if (authService.authenticate()) {
+//                 route(authService.getLoggedInUser());
+//             } else {
+//                 System.out.println(Colors.ANSI_RED+"\t\t\t\t\t\t\t\t\t\t\t\t\t\tSORRY CHECK YOUR PASSWORD OR EMAIL"+Colors.ANSI_RESET);
+//             }
+//         }
+//         while(openLogin);
+//     }
 //     public void route(String appUser) throws Exception{
 //         switch (appUser) {
 //             case "BUSINESS_ADMIN":
