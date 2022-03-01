@@ -40,6 +40,26 @@
 //     }
 //     private boolean openLogin = false;
 //     public void view() throws Exception{
+// public class Login {
+//     private Socket socket;
+//     public Login()  { }
+//     public Login(Socket socket) throws Exception{
+//         this.socket = socket;
+
+//         UserSession userSession = new UserSession();
+//         if(userSession.isLoggedIn())
+//         {
+//             String json = userSession.getUserJsonObject();
+//             ObjectMapper objectMapper = new ObjectMapper();
+//             JsonNode jsonNode = objectMapper.readTree(json);
+//             route(jsonNode.get("appUser").asText());
+//         }else{
+//             openLogin=true;
+//             this.view();
+//         }
+//     }
+//     private boolean openLogin = false;
+//     public void view() throws Exception{
 
 //         authorize:do{
 
