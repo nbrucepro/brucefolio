@@ -145,3 +145,23 @@
 //         }
 //     }
 // }
+//     public void route(String appUser) throws Exception{
+//         switch (appUser) {
+//             case "BUSINESS_ADMIN":
+
+
+//                 BusinessAdminDashboard bussDashboard = new BusinessAdminDashboard(this.socket);
+
+//                 break;
+//             case "EMPLOYEE":
+//                 EmployeeDashboard empDashboard = new EmployeeDashboard(this.socket);
+
+//                 break;
+//             case "SUPER_ADMIN":
+//                 SuperAdminDashboard admDashboard = new SuperAdminDashboard(this.socket);
+//                 break;
+//             default:
+//                 System.out.println(Colors.ANSI_RED+"\t\t\t\t\t\t\t\t\t\t\t\t\t\tINVALID CHOICE"+Colors.ANSI_RESET);
+//         }
+//     }
+// }
