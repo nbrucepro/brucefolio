@@ -37,6 +37,10 @@ const Footer = () => {
                     <a href="mailto:nezabruce@gmail.com" className="p-text">nezabruce@gmail.com</a>
                 </div>
                 <div className="footer-card">
+                //Web Development I am good 
+                //Frontend Development I am good
+                //Backend Development I am good
+                //MERN Stack I am good
                     <img src={images.mobile} alt="phone" />
                     <a href="tel:+250 (123) 456-7890" className="p-text">0783304332</a>
                 </div>
