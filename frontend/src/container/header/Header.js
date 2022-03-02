@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import { motion } from 'framer-motion'
 
@@ -6,12 +7,17 @@ import { images } from "../../constants";
 import { AppWrap, MotionWrap } from "../../Wrapper";
 import './Header.scss';
 =======
+=======
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
 import React from 'react'
 import { motion } from 'framer-motion'
 
 import './Header.scss';
 // import { images } from '../../../../bdark/bruce/bu/src/constants';
 import {images} from '../../constants/index'
+<<<<<<< HEAD
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
+=======
 >>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
 const scaleVariants={
     whileInView:{
@@ -25,6 +31,7 @@ const scaleVariants={
 };
 const Header = () => {
   return (
+<<<<<<< HEAD
 <<<<<<< HEAD
     <div className="header flex">
       <motion.div
@@ -77,6 +84,8 @@ const Header = () => {
 // export default Header;
 export default AppWrap(MotionWrap(Header, "header"), "header", "whitebg");
 =======
+=======
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
     <div className='header flex'>
         <motion.div
         whileInView={{x:[-100,0],opacity:[0,1]}}
@@ -132,5 +141,9 @@ className='overlay_cirlce'
 =======
 
 >>>>>>> 1081e94607d7a2c63e7b0c8ec8571f7d17bb56e8
+<<<<<<< HEAD
+export default Header
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
+=======
 export default Header
 >>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
