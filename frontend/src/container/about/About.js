@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React, { useState,useEffect } from "react";
 
 import { AppWrap, MotionWrap } from "../../Wrapper";
@@ -46,6 +47,8 @@ const About = () => {
 export default AppWrap(MotionWrap(About, "about"), "about", "whitebg");
 // MotionConfig.apply(thisArg)
 =======
+=======
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
 import React, { useEffect, useState } from 'react'
 import {motion, MotionConfig} from 'framer-motion';
 import './About.scss';
@@ -81,5 +84,9 @@ client.fetch(query).then(data=>{
 }
 
 export default About;
+<<<<<<< HEAD
+// MotionConfig.apply(thisArg)
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
+=======
 // MotionConfig.apply(thisArg)
 >>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
