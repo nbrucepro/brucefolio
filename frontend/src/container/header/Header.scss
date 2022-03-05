@@ -68,18 +68,43 @@
             text-transform: uppercase;
             text-align: right;
         }
+<<<<<<< HEAD
+<<<<<<< HEAD
+    }
+=======
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
+=======
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
         span{
             font-size: 3rem;
             @media screen and (min-width:2000px){
                 font-size: 5rem;
             }
+<<<<<<< HEAD
+<<<<<<< HEAD
+        }
+=======
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
+=======
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
             @media screen and (max-width:2000px){
                 justify-content: flex-start;
                 align-items: flex-start;
             }
+<<<<<<< HEAD
+<<<<<<< HEAD
+    }
+        .overlay_circle{
+=======
         }
     }
         .header-circle{
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
+=======
+        }
+    }
+        .header-circle{
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
             flex:0.75;
             display: flex;
             flex-direction: column;
@@ -87,7 +112,15 @@
             align-items: flex-start;
             height: 100%;
             margin-left: 1rem;
+<<<<<<< HEAD
+<<<<<<< HEAD
+        
+=======
         }
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
+=======
+        }
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
         div{
             width: 100px;
             height: 100px;
@@ -128,7 +161,15 @@
             width: 200px;
         }
     }
+<<<<<<< HEAD
+<<<<<<< HEAD
+    @media screen and(max-width:1200px) {
+=======
     @media screen and(max-width:2000px) {
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
+=======
+    @media screen and(max-width:2000px) {
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
         width: 100%;
         flex-direction: column;
         flex-wrap: wrap;
@@ -160,7 +201,17 @@
             width: 100%;
             height: 90%;
         }
+<<<<<<< HEAD
+<<<<<<< HEAD
+        @media screen and (max-width:1200px) {
+            margin: 2rem 0;
+=======
         @media screen and (max-width:2000px) {
             margin: 2rem;
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
+=======
+        @media screen and (max-width:2000px) {
+            margin: 2rem;
+>>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
         }
     }
