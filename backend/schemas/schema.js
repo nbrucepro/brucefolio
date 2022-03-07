@@ -18,14 +18,8 @@ export default createSchema({
   name: 'default',
   // Then proceed to concatenate our document type
   // to the ones provided by any plugins that are installed
-<<<<<<< HEAD
-  types: schemaTypes.concat([about, brands, contact, experience, skills, testimonials, workExperience, works]),
-})
-=======
   types: schemaTypes.concat([
     /* Your types here! */
     about,brands,contact,experience,skills,testimonials,workExperience,works
   ])
-
 })
->>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f

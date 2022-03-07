@@ -19,8 +19,8 @@ const Footer = () => {
         setLoading(true)
         const contact = {
             _type: 'contact',
-            name: formData.username,
-            email: formData.email,
+            name: formdata.username,
+            email: formdata.email,
             message: formdata.messsage
         };
         client.create(contact).then(() => {

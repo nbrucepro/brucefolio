@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
-  .app__wrapper{
+  .wrapper{
       padding: 0;
     .copyright{
           display: none;
@@ -22,7 +22,7 @@
     @media screen and (min-width: 2000px){
         padding-top: 8rem;
     }
-    @media screen and (max-width: 2000px){
+    @media screen and (max-width:1200px){
         flex-direction: column;
     }
     @media screen and (max-width: 540px){
@@ -68,60 +68,28 @@
             text-transform: uppercase;
             text-align: right;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
     }
-=======
->>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
-=======
->>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
-        span{
+span{
             font-size: 3rem;
             @media screen and (min-width:2000px){
                 font-size: 5rem;
             }
-<<<<<<< HEAD
-<<<<<<< HEAD
         }
-=======
->>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
-=======
->>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
-            @media screen and (max-width:2000px){
+        @media screen and (max-width:2000px){
                 justify-content: flex-start;
                 align-items: flex-start;
             }
-<<<<<<< HEAD
-<<<<<<< HEAD
-    }
-        .overlay_circle{
-=======
-        }
-    }
+ }
+
         .header-circle{
->>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
-=======
-        }
-    }
-        .header-circle{
->>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
-            flex:0.75;
+          flex:0.75;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
             align-items: flex-start;
             height: 100%;
             margin-left: 1rem;
-<<<<<<< HEAD
-<<<<<<< HEAD
-        
-=======
-        }
->>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
-=======
-        }
->>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
-        div{
+     div{
             width: 100px;
             height: 100px;
             border-radius: 50%;
@@ -161,16 +129,8 @@
             width: 200px;
         }
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     @media screen and(max-width:1200px) {
-=======
-    @media screen and(max-width:2000px) {
->>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
-=======
-    @media screen and(max-width:2000px) {
->>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
-        width: 100%;
+     width: 100%;
         flex-direction: column;
         flex-wrap: wrap;
         margin-left: 0;
@@ -201,17 +161,7 @@
             width: 100%;
             height: 90%;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-        @media screen and (max-width:1200px) {
+       @media screen and (max-width:1200px) {
             margin: 2rem 0;
-=======
-        @media screen and (max-width:2000px) {
-            margin: 2rem;
->>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
-=======
-        @media screen and (max-width:2000px) {
-            margin: 2rem;
->>>>>>> 6d08975e86137f78bd40cc1eddee7fa95f20367f
-        }
+                }
     }

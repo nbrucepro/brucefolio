@@ -14,7 +14,6 @@ const Testimonial = () => {
         setCurrentIndex(index);
     };
     useEffect(() => {
-        testimonial
         const query = '*[_types=="testimonial"]';
         const brandsQuery = '*[_types=="brands"]';
         client.fetch(query).then(data => {
@@ -46,7 +45,7 @@ const Testimonial = () => {
               <div
                 className="flex"
                 onClick={() => {
-                  handleClick;
+                  handleClick();
                 }}
               >
                 <HiChevronLeft />
@@ -54,7 +53,7 @@ const Testimonial = () => {
               <div
                 className="flex"
                 onClick={() => {
-                  handleClick;
+                  handleClick();
                 }}
               >
                 <HiChevronRight />
