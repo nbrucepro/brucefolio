@@ -19,8 +19,11 @@ const Footer = () => {
         setLoading(true)
         const contact = {
             _type: 'contact',
+
             name: formdata.username,
             email: formdata.email,
+          name: formData.username,
+            email: formData.email,
             message: formdata.messsage
         };
         client.create(contact).then(() => {
@@ -55,11 +58,11 @@ const Footer = () => {
                     </div>
                     <div>
                         <textarea name="message" value={message} className="p-text"
-                            onChange={handleChangeInput}
+                            onChange={handleChangeInput()}
                             placeholder="Leave a message"
                         />
                     </div>
-                        <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? "Submit" : "Loading"}</button>
+                        <button type="button" className="p-text" onClick={handleSubmit()}>{!loading ? "Submit" : "Loading"}</button>
                 </div>
             ) : (
                 <div>
