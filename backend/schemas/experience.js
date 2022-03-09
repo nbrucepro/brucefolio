@@ -13,6 +13,13 @@ export default {
             title: "Works",
             type: "array",
             of:[{type:"workExperience"}]
+        },
+        {
+            name:"count",
+            title:"count",
+            type:"array",
+            of:[{type:"counter"}]
         }
     ]
+
 }
