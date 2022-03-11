@@ -22,8 +22,8 @@ const Footer = () => {
 
             name: formdata.username,
             email: formdata.email,
-          name: formData.username,
-            email: formData.email,
+          name: formdata.username,
+            email: formdata.email,
             message: formdata.messsage
         };
         client.create(contact).then(() => {
