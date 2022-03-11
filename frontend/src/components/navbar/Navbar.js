@@ -8,10 +8,6 @@ import './Navbar.scss'
 
 const Navbar = () => {
     const [toggle,setToggle]=useState(false);
-<<<<<<< HEAD
-=======
-
->>>>>>> e951173f6fa7776e4b899b65b0d9454c7c914813
     return (
     <nav className='navbar'>
         <div className='navbar-logo'>
